@@ -1,0 +1,765 @@
+@font-face {
+  font-family:"ico-moon";
+  src: url(/fonts/icomoon-codewars.eot);
+  src: url(/fonts/icomoon.eot?#iefix) format("embedded-opentype"),
+       url(/fonts/icomoon-codewars.woff) format("woff"),
+       url(/fonts/icomoon-codewars.ttf) format("truetype"),
+       url(/fonts/icomoon-codewars.svg#ico-moon) format("svg");
+  font-weight:400;
+  font-style:400
+}
+
+[class^="rye-"]:before, [class*=" rye-"]:before {
+  font-family:'ico-moon';
+  font-style:normal;
+  speak:none;
+  font-weight:normal;
+  line-height:1;
+  
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
+}
+
+i[class^="rye-"] {
+  margin-right:5px;
+  font-size:1em
+}
+
+.rye-ethereum:before {
+  content:"\e921"
+}
+
+.rye-solidity:before{
+  content:"\e920"
+}
+
+.rye-nim:before{
+  content:"\e91f"
+}
+
+.rye-powershell:before{
+  content:"\e91e"
+}
+
+.rye-bf:before{
+  content:"\e91c"
+}
+
+.rye-chapel:before{
+  content:"\e91d"
+}
+
+.rye-go-lang:before{
+  content:"\e91b"
+}
+
+.rye-duplicate_runs:before{
+  content:"\e916"
+}
+
+.rye-streaming:before{
+  content:"\e917"
+}
+
+.rye-user_profile:before{
+  content:"\e912"
+}
+
+.rye-ad_free:before{
+  content:"\e913"
+}
+
+.rye-compare_solutions:before{
+  content:"\e914"
+}
+
+.rye-premium_cloud:before{
+  content:"\e915"
+}
+
+.rye-early_access:before{
+  content:"\e918"
+}
+
+.rye-red-badge:before{
+  content:"\e90f"
+}
+
+.rye-tshirt:before{
+  content:"\e911"
+}
+
+.rye-progress:before{
+  content:"\e919"
+}
+
+.rye-contribution:before{
+  content:"\e91a"
+}
+
+.rye-racket:before{
+  content:"\e646"
+}
+
+.rye-streak:before{
+  content:"\e909"
+}
+
+.rye-linkedin:before{
+  content:"\eac9"
+}
+
+.rye-stackoverflow:before{
+  content:"\ead0"
+}
+
+.rye-honor:before{
+  content:"\e910"
+}
+
+.rye-sql:before{
+  content:"\e90d"
+}
+
+.rye-kotlin:before{
+  content:"\e902"
+}
+
+.rye-crystal:before{
+  content:"\e90c"
+}
+
+.rye-routine:before{
+  content:"\e90e"
+}
+
+.rye-bell:before{
+  content:"\e90b"
+}
+
+.rye-book:before{
+  content:"\e900"
+}
+
+.rye-flow:before{
+  content:"\e901"
+}
+
+.rye-ranks2:before{
+  content:"\e903"
+}
+
+.rye-terminal:before{
+  content:"\e904"
+}
+
+.rye-flag:before{
+  content:"\e000"
+}
+
+.rye-reply:before{
+  content:"\e002"
+}
+
+.rye-new:before{
+  content:"\e004"
+}
+
+.rye-trash:before{
+  content:"\e006"
+}
+
+.rye-preview:before{
+  content:"\e007"
+}
+
+.rye-play:before{
+  content:"\e009"
+}
+
+.rye-radio-on:before{
+  content:"\e00a"
+}
+
+.rye-radio-off:before{
+  content:"\e00b"
+}
+
+.rye-facebook:before{
+  content:"\e00c"
+}
+
+.rye-settings:before{
+  content:"\e00e"
+}
+
+.rye-twitter:before{
+  content:"\e00f"
+}
+
+.rye-unchecked:before{
+  content:"\e012"
+}
+
+.rye-checked:before{
+  content:"\e013"
+}
+
+.rye-next:before{
+  content:"\e015"
+}
+
+.rye-rank_up:before{
+  content:"\e019"
+}
+
+.rye-send:before{
+  content:"\e01a"
+}
+
+.rye-unpublish:before{
+  content:"\e01b"
+}
+
+.rye-layout:before{
+  content:"\e022"
+}
+
+.rye-reference:before{
+  content:"\e023"
+}
+
+.rye-shuffle:before{
+  content:"\e026"
+}
+
+.rye-layout-2:before{
+  content:"\e028"
+}
+
+.rye-refresh:before{
+  content:"\e038"
+}
+
+.rye-check:before{
+  content:"\e040"
+}
+
+.rye-circle-check:before{
+  content:"\e041"
+}
+
+.rye-x:before{
+  content:"\e042"
+}
+
+.rye-circle-x:before{
+  content:"\e043"
+}
+
+.rye-database:before{
+  content:"\e04d"
+}
+
+.rye-algorithm:before{
+  content:"\e04e"
+}
+
+.rye-envelope:before{
+  content:"\e04f"
+}
+
+.rye-cone:before{
+  content:"\e052"
+}
+
+.rye-edit:before{
+  content:"\e053"
+}
+
+.rye-unlock:before{
+  content:"\e055"
+}
+
+.rye-lock:before{
+  content:"\e056"
+}
+
+.rye-megaphone:before{
+  content:"\e057"
+}
+
+.rye-help:before{
+  content:"\e05a"
+}
+
+.rye-warning:before{
+  content:"\e05b"
+}
+
+.rye-info:before{
+  content:"\e05c"
+}
+
+.rye-user:before{
+  content:"\e060"
+}
+
+.rye-users:before{
+  content:"\e061"
+}
+
+.rye-tag:before{
+  content:"\e063"
+}
+
+.rye-timer:before{
+  content:"\e068"
+}
+
+.rye-lab:before{
+  content:"\e069"
+}
+
+.rye-publish:before{
+  content:"\e06d"
+}
+
+.rye-ruby:before{
+  content:"\e06e"
+}
+
+.rye-python:before{
+  content:"\e06f"
+}
+
+.rye-coffeescript:before{
+  content:"\e075"
+}
+
+.rye-github:before{
+  content:"\e07a"
+}
+
+.rye-expand:before{
+  content:"\e07c"
+}
+
+.rye-collapse:before{
+  content:"\e07d"
+}
+
+.rye-share:before{
+  content:"\e600"
+}
+
+.rye-r:before{
+  content:"\e601"
+}
+
+.rye-issue:before{
+  content:"\e602"
+}
+
+.rye-sort:before{
+  content:"\e603"
+}
+
+.rye-merge2:before{
+  content:"\e604"
+}
+
+.rye-search:before{
+  content:"\e605"
+}
+
+.rye-filter:before{
+  content:"\e606"
+}
+
+.rye-sort-asc:before{
+  content:"\e607"
+}
+
+.rye-sort-desc:before{
+  content:"\e608"
+}
+
+.rye-world:before{
+  content:"\e609"
+}
+
+.rye-bullseye:before{
+  content:"\e60a"
+}
+
+.rye-sun:before{
+  content:"\e60b"
+}
+
+.rye-chevron-sign-up:before{
+  content:"\e60c"
+}
+
+.rye-chevron-sign-down:before{
+  content:"\e60d"
+}
+
+.rye-php:before{
+  content:"\e60e"
+}
+
+.rye-clojure:before{
+  content:"\e60f"
+}
+
+.rye-groovy:before{
+  content:"\e610"
+}
+
+.rye-csharp:before{
+  content:"\e611"
+}
+
+.rye-c-lang:before{
+  content:"\e612"
+}
+
+.rye-cplusplus:before{
+  content:"\e613"
+}
+
+.rye-objc:before{
+  content:"\e614"
+}
+
+.rye-java:before{
+  content:"\e615"
+}
+
+.rye-lua:before{
+  content:"\e616"
+}
+
+.rye-lisp:before{
+  content:"\e617"
+}
+
+.rye-scala:before{
+  content:"\e618"
+}
+
+.rye-haskell:before{
+  content:"\e619"
+}
+
+.rye-octave:before{
+  content:"\e61a"
+}
+
+.rye-erlang:before{
+  content:"\e61b"
+}
+
+.rye-perl:before{
+  content:"\e61c"
+}
+
+.rye-html5:before{
+  content:"\e61d"
+}
+
+.rye-moon:before{
+  content:"\e61e"
+}
+
+.rye-catalog:before{
+  content:"\e61f"
+}
+
+.rye-list:before{
+  content:"\e620"
+}
+
+.rye-star-empty:before{
+  content:"\e621"
+}
+
+.rye-star:before{
+  content:"\e622"
+}
+
+.rye-history:before{
+  content:"\e623"
+}
+
+.rye-down:before{
+  content:"\e624"
+}
+
+.rye-up:before{
+  content:"\e625"
+}
+
+.rye-trophy:before{
+  content:"\e626"
+}
+
+.rye-forum:before{
+  content:"\e627"
+}
+
+.rye-clan:before{
+  content:"\e628"
+}
+
+.rye-pulse:before{
+  content:"\e629"
+}
+
+.rye-compass:before{
+  content:"\e62a"
+}
+
+.rye-julia:before{
+  content:"\e62b"
+}
+
+.rye-ancestors:before{
+  content:"\e62c"
+}
+
+.rye-question:before{
+  content:"\e62d"
+}
+
+.rye-enhancement:before{
+  content:"\e62e"
+}
+
+.rye-calendar:before{
+  content:"\e62f"
+}
+
+.rye-rss:before{
+  content:"\e630"
+}
+
+.rye-quill:before{
+  content:"\e631"
+}
+
+.rye-swift:before{
+  content:"\e632"
+}
+
+.rye-document:before{
+  content:"\e633"
+}
+
+.rye-tdd:before{
+  content:"\e634"
+}
+
+.rye-test_results:before{
+  content:"\e635"
+}
+
+.rye-secret:before{
+  content:"\e636"
+}
+
+.rye-branches:before{
+  content:"\e637"
+}
+
+.rye-begin:before{
+  content:"\e638"
+}
+
+.rye-rust:before{
+  content:"\e639"
+}
+
+.rye-sass:before{
+  content:"\e63b"
+}
+
+.rye-bash:before{
+  content:"\e63c"
+}
+
+.rye-ocaml:before{
+  content:"\e63d"
+}
+
+.rye-d:before{
+  content:"\e63e"
+}
+
+.rye-fsharp:before{
+  content:"\e63f"
+}
+
+.rye-javascript:before{
+  content:"\e640"
+}
+
+.rye-typescript:before{
+  content:"\e641"
+}
+
+.rye-rubix:before{
+  content:"\e642"
+}
+
+.rye-innovate:before{
+  content:"\e643"
+}
+
+.rye-code:before{
+  content:"\e644"
+}
+
+.rye-translation:before{
+  content:"\e645"
+}
+
+.rye-plus:before{
+  content:"\e648"
+}
+
+.rye-css3:before{
+  content:"\e649"
+}
+
+.rye-description:before{
+  content:"\e64b"
+}
+
+.rye-apps:before{
+  content:"\e64c"
+}
+
+.rye-prolog:before{
+  content:"\e64d"
+}
+
+.rye-reddit:before{
+  content:"\e64e"
+}
+
+.rye-follow:before{
+  content:"\e64f"
+}
+
+.rye-redis:before{
+  content:"\e66d"
+}
+
+.rye-open-source:before{
+  content:"\e671"
+}
+
+.rye-elixir:before{
+  content:"\e905"
+}
+
+.rye-dart:before{
+  content:"\e906"
+}
+
+.rye-collection:before{
+  content:"\e907"
+}
+
+.rye-guage:before{
+  content:"\e908"
+}
+
+.rye-satisfaction:before{
+  content:"\e90a"
+}
+
+.rye-forked:before{
+  content:"\f002"
+}
+
+.rye-table:before{
+  content:"\f00b"
+}
+
+.rye-commit:before{
+  content:"\f01f"
+}
+
+.rye-branch:before{
+  content:"\f020"
+}
+
+.rye-merge:before{
+  content:"\f023"
+}
+
+.rye-unfold:before{
+  content:"\f039"
+}
+
+.rye-error:before{
+  content:"\f04a"
+}
+
+.rye-diff:before{
+  content:"\f04d"
+}
+
+.rye-versions:before{
+  content:"\f064"
+}
+
+.rye-comments:before{
+  content:"\f086"
+}
+
+.rye-bug:before{
+  content:"\f091"
+}
+
+.rye-compare:before{
+  content:"\f0ac"
+}
+
+.rye-puzzle:before{
+  content:"\f0c0"
+}
+
+.rye-comments-alt:before{
+  content:"\f0e6"
+}
+
+.rye-power:before{
+  content:"\f11d"
+}
+
+.rye-happy:before{
+  content:"\f13c"
+}
+
+.rye-sad:before{
+  content:"\f13d"
+}
+
+.rye-blankstare:before{
+  content:"\f13e"
+}
+
+.rye-bookmark:before{
+  content:"\f143"
+}
+
+.rye-plugin:before{
+  content:"\f370"
+}
+
+
+

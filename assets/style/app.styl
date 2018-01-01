@@ -1,0 +1,11 @@
+// Import Vuetify styling
+@require '~vuetify/src/stylus/main.styl'
+
+.page
+  @extend .fade-transition
+
+// fix card text with markdown indent not correct
+.card__text ul {
+  overflow: hidden;
+  padding-left: 1.2em;
+}

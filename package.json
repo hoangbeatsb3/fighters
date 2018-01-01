@@ -1,0 +1,55 @@
+{
+  "name": "fighters",
+  "version": "1.0.0",
+  "description": "Nuxt.js + Vuetify.js project",
+  "author": "To Nguyen Thanh Vu <tntvu@TMA.COM.VN>",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^4.5.0",
+    "@nuxtjs/dotenv": "^1.1.0",
+    "@xkeshi/vue-countdown": "^0.5.0",
+    "body-parser": "^1.18.2",
+    "brace": "^0.11.0",
+    "bulma": "^0.6.1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "marked": "^0.3.7",
+    "moment": "^2.20.1",
+    "node-rest-client": "^3.1.0",
+    "nuxt": "^1.0.0-rc11",
+    "vue": "^2.5.9",
+    "vue-markdown": "^2.2.4",
+    "vue-server-renderer": "^2.5.9",
+    "vue-template-compiler": "^2.5.9",
+    "vuetify": "^1.0.0-alpha.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "node-sass": "^4.7.2",
+    "pug": "^2.0.0-rc.4",
+    "pug-loader": "^2.3.0",
+    "sass-loader": "^6.0.6",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}
